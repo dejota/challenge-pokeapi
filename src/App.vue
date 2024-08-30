@@ -1,10 +1,9 @@
 <script setup lang="ts">
+import WelcomeMessage from './components/WelcomeMessage.vue'
 </script>
 
 <template>
-  <div><h1 class="text-3xl font-bold underline">
-      Hello, Tailwind CSS with Vue 3!
-    </h1></div>
+  <div>
+    <WelcomeMessage class="mt-16 px-7" />
+  </div>
 </template>
-
-<style scoped></style>
