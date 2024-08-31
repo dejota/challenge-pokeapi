@@ -9,17 +9,17 @@ const apiClient: AxiosInstance = axios.create({
   },
 });
 
-export const getPokemonList = async (): Promise<PokemonResponse | undefined> => {
+export const getPokemonList = async () => {
   try {
-    return await apiClient.get('');
+    return await apiClient.get<PokemonResponse>('');
   } catch (error) {
     console.error('Error fetching Pokémon:', error);
   }
 };
 
-export const getPokemon = async (pokemonName: string): Promise<SinglePokemon | undefined> => {
+export const getPokemon = async (pokemonName: string) => {
   try {
-    return await apiClient.get(pokemonName);
+    return await apiClient.get<SinglePokemon>(pokemonName);
   } catch (error) {
     console.error(`Error fetching "${pokemonName}":`, error);
   }
