@@ -3,6 +3,6 @@
 
 <template>
   <div>
-    <RouterView></RouterView>
+    List View
   </div>
 </template>
