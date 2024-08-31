@@ -8,7 +8,7 @@ const colors = {
   favourite: "#ECA539",
   white: "#ffffff",
   light: "#F9F9F9",
-  disable: "#BFBFBF",
+  disabled: "#BFBFBF",
   transparent: "transparent",
   current: "currentColor",
 };
