@@ -11,7 +11,7 @@ const apiClient: AxiosInstance = axios.create({
 
 export const getPokemonList = async () => {
   try {
-    return await apiClient.get<PokemonResponse>('');
+    return (await apiClient.get<PokemonResponse>('')).data;
   } catch (error) {
     console.error('Error fetching Pokémon:', error);
   }
@@ -19,7 +19,7 @@ export const getPokemonList = async () => {
 
 export const getPokemon = async (pokemonName: string) => {
   try {
-    return await apiClient.get<SinglePokemon>(pokemonName);
+    return (await apiClient.get<SinglePokemon>(pokemonName)).data;
   } catch (error) {
     console.error(`Error fetching "${pokemonName}":`, error);
   }

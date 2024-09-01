@@ -17,3 +17,7 @@ h1 {
 p {
   @apply text-secondary;
 }
+
+input {
+  @apply font-['Montserrat'] placeholder:text-disabled font-medium;
+}

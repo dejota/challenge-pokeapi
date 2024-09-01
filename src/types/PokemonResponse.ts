@@ -14,8 +14,20 @@ export interface SinglePokemon {
   name: string;
   height: number;
   weight: number;
+  sprites: {
+    other: {
+      "official-artwork": {
+        front_default: string;
+      };
+    };
+  };
   types: {
     slot: number;
-    type: PokemonData
-  }[]
+    type: PokemonData;
+  }[];
+}
+
+export interface SinglePokemonExtended extends SinglePokemon {
+  favorite: boolean;
+  url: string;
 }

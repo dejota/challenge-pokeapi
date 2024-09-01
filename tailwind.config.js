@@ -9,6 +9,7 @@ const colors = {
   white: "#ffffff",
   light: "#F9F9F9",
   soft: "#F5F5F5",
+  gray: "#E8E8E8",
   disabled: "#BFBFBF",
   transparent: "transparent",
   current: "currentColor",
@@ -20,7 +21,8 @@ export default {
     colors,
     extend: {
       boxShadow: {
-        center: '0 -4px 6px 0 rgba(0, 0, 0, 0.1)'
+        center: '0 -4px 6px 0 rgba(0, 0, 0, 0.1)',
+        input: '0px 2px 10px 0px rgba(0, 0, 0, 0.04)',
       }
     },
   },
