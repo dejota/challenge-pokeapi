@@ -1,5 +1,70 @@
-# Vue 3 + TypeScript + Vite
+# Challenge Global66 
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## ⛏️ Built Using
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+- [VueJS + Vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project) - The Progressive JavaScript Framework + Next Generation Frontend Tooling
+- [Tailwind](https://tailwindcss.com) - A utility-first CSS framework packed
+- [Node.js](https://nodejs.org) - JavaScript engine
+- [Pinia](https://pinia.vuejs.org) - The intuitive store for Vue.js
+- [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js
+- [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) - Chrome DevTools extension for debugging Vue.js applications.
+
+---
+
+## 🏁 Getting Started
+
+### Prerequisites:
+
+Install **Git**: [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+Install **Node**: [https://nodejs.org/](https://nodejs.org/)
+
+---
+
+## Project clone
+
+```
+git clone https://github.com/dejota/challenge-pokeapi.git
+
+cd challenge-pokeapi
+```
+
+## Project setup
+
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+
+```
+npm run dev
+```
+
+### View on browser
+
+```
+http://localhost:5173
+```
+
+### Compiles and minifies for production
+
+```
+npm run build
+```
+
+### Run tests
+
+```
+npm run test
+```
+
+---
+
+## ✍️ Author
+
+- [Juan Carlos Quintero](https://www.linkedin.com/in/quinterojuan)
+
+<br>
+
+![picture](./src/assets/vite.jpg)
