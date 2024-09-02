@@ -70,6 +70,7 @@ const showOnlyFavorites = () => {
 
 const reset = () => {
   text.value = "";
+  showFavorites.value = false;
 };
 
 const showModal = ref(false);
