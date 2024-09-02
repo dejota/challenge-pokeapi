@@ -5,8 +5,10 @@
 - [VueJS + Vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project) - The Progressive JavaScript Framework + Next Generation Frontend Tooling
 - [Tailwind](https://tailwindcss.com) - A utility-first CSS framework packed
 - [Node.js](https://nodejs.org) - JavaScript engine
+- [TypeScript](https://www.typescriptlang.org) - TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale
 - [Pinia](https://pinia.vuejs.org) - The intuitive store for Vue.js
 - [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js
+- [Vitest](https://vitest.dev) - A Vite-native testing framework
 - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) - Chrome DevTools extension for debugging Vue.js applications.
 
 ---
@@ -58,6 +60,10 @@ npm run build
 ```
 npm run test
 ```
+
+### Result
+
+![picture](./src/assets/tests.jpg)
 
 ---
 
