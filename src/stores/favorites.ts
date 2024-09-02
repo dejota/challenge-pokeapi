@@ -1,5 +1,5 @@
-import { defineStore } from "pinia";
 import { computed, ref } from "vue";
+import { defineStore } from "pinia";
 import { SinglePokemonExtended } from "@/types/PokemonResponse";
 
 export const useFavoritesStore = defineStore("favorites", () => {

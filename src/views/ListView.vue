@@ -140,11 +140,10 @@ onMounted(async () => {
     favoritesStore.setPokemonList(pokemon.value);
   }
 
-  showLoading.value = false;
-
-  /* setTimeout(() => {
+  // Added 1500 milliseconds of delay to simulate slow response from the API in order to display the pokeball loading
+  setTimeout(() => {
     showLoading.value = false;
-  }, 1500); */
+  }, 1500);
 });
 </script>
 

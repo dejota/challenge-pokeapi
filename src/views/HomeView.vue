@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import WelcomeMessage from '../components/WelcomeMessage.vue'
+import WelcomeMessage from '@/components/WelcomeMessage.vue'
 </script>
 
 <template>

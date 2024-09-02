@@ -1,5 +1,5 @@
 import axios, { AxiosInstance } from 'axios';
-import type { PokemonResponse, SinglePokemon } from '../types/PokemonResponse';
+import type { PokemonResponse, SinglePokemon } from '@/types/PokemonResponse';
 
 const apiClient: AxiosInstance = axios.create({
   baseURL: 'https://pokeapi.co/api/v2/pokemon/',
